@@ -20,7 +20,7 @@
 		FD84A0271EC278C000A64589 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD84A0261EC278C000A64589 /* GoogleService-Info.plist */; };
 		FD84A0281EC278C000A64589 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD84A0261EC278C000A64589 /* GoogleService-Info.plist */; };
 		FD84A0291EC278C000A64589 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD84A0261EC278C000A64589 /* GoogleService-Info.plist */; };
-		FD84A02B1EC284A700A64589 /* MainViewContrller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD84A02A1EC284A700A64589 /* MainViewContrller.swift */; };
+		FD84A02B1EC284A700A64589 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD84A02A1EC284A700A64589 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +64,7 @@
 		FD84A0181EC2786100A64589 /* EazyUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EazyUUITests.swift; sourceTree = "<group>"; };
 		FD84A01A1EC2786100A64589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD84A0261EC278C000A64589 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		FD84A02A1EC284A700A64589 /* MainViewContrller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewContrller.swift; sourceTree = "<group>"; };
+		FD84A02A1EC284A700A64589 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +150,7 @@
 				FD849FFF1EC2786000A64589 /* Assets.xcassets */,
 				FD84A0011EC2786000A64589 /* LaunchScreen.storyboard */,
 				FD84A0041EC2786000A64589 /* Info.plist */,
-				FD84A02A1EC284A700A64589 /* MainViewContrller.swift */,
+				FD84A02A1EC284A700A64589 /* MainViewController.swift */,
 			);
 			path = EazyU;
 			sourceTree = "<group>";
@@ -250,6 +250,7 @@
 				TargetAttributes = {
 					FD849FF41EC2786000A64589 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = E69L87VM48;
 						ProvisioningStyle = Automatic;
 					};
 					FD84A0081EC2786100A64589 = {
@@ -342,7 +343,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		B2E1A2EE6E1D876462DCEBB8 /* [CP] Embed Pods Frameworks */ = {
@@ -372,7 +373,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		C7168BB48C6D38080E1DC176 /* [CP] Copy Pods Resources */ = {
@@ -447,7 +448,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -458,7 +459,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD849FFB1EC2786000A64589 /* ViewController.swift in Sources */,
-				FD84A02B1EC284A700A64589 /* MainViewContrller.swift in Sources */,
+				FD84A02B1EC284A700A64589 /* MainViewController.swift in Sources */,
 				FD849FF91EC2786000A64589 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -614,6 +615,7 @@
 			baseConfigurationReference = FC134747B076631E6E7DFF78 /* Pods-EazyU.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E69L87VM48;
 				INFOPLIST_FILE = EazyU/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ZJ-jiang.EazyU";
@@ -627,6 +629,7 @@
 			baseConfigurationReference = 24BAFEE40C5BC64AE5B2C42D /* Pods-EazyU.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E69L87VM48;
 				INFOPLIST_FILE = EazyU/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ZJ-jiang.EazyU";

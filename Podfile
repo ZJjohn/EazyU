@@ -8,7 +8,8 @@ target 'EazyU' do
   # Pods for EazyU
     	pod 'Firebase/Auth'
 	pod 'GoogleSignIn'
-	pod 'Firebase/Core'
+	pod 'Firebase/Core’
+	pod 'Firebase/Database'
   target 'EazyUTests' do
     inherit! :search_paths
     # Pods for testing

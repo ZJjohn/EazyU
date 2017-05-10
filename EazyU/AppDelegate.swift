@@ -20,6 +20,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate{
         FIRApp.configure()
         GIDSignIn.sharedInstance().clientID = FIRApp.defaultApp()?.options.clientID
         GIDSignIn.sharedInstance().delegate = self
+            
+        if (FIRAuth.auth()?.currentUser != nil) {
+            // User is logged in, do work such as go to next view controller.
+            print("User is already logged in with Email")
+                
+            if let providerData = FIRAuth.auth()?.currentUser?.providerData {
+                for userInfo in providerData {
+                    switch userInfo.providerID {
+                        default:
+                            print("user is signed in with \(userInfo.providerID)")
+                    }
+                }
+            }
+                
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "MainViewController")
+                
+            self.window?.rootViewController = vc
+            }
         return true
     }
 
@@ -76,6 +95,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate{
             }
             else {
                 print ("alredy sign in")
+                
                 let storyboard = UIStoryboard(name: "Main", bundle: nil)
                 let vc = storyboard.instantiateViewController(withIdentifier: "MainViewController")
                 self.window?.rootViewController = vc

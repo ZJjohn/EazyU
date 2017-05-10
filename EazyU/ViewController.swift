@@ -14,6 +14,7 @@ class ViewController: UIViewController, GIDSignInUIDelegate {
     @IBOutlet weak var GoogleSigninButton: UIButton!
     
     @IBAction func OnclickGoogle(_ sender: Any) {
+        
         GIDSignIn.sharedInstance().signIn()
     }
     

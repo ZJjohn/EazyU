@@ -18,7 +18,7 @@ class MainViewContrller: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func OnLogOutButton(_ sender: Any) {
-        print(GIDSignIn.sharedInstance().currentUser.userID)
+        //print(GIDSignIn.sharedInstance().currentUser.userID)
         if(GIDSignIn.sharedInstance().currentUser != nil) {
                 GIDSignIn.sharedInstance().signOut()
         }

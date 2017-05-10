@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		709697D11BA0794464B81B37 /* Pods_EazyU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78304D39E9F7D1D2F706A78 /* Pods_EazyU.framework */; };
+		731EEB1BD6F804F184A3960B /* Pods_EazyUUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FBF41AF2A20CB60BDAD1AB8 /* Pods_EazyUUITests.framework */; };
+		B90338D097A06CE6D42621A5 /* Pods_EazyUTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937ADF9DFDF55812CC7F6812 /* Pods_EazyUTests.framework */; };
+		FD849FF91EC2786000A64589 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD849FF81EC2786000A64589 /* AppDelegate.swift */; };
+		FD849FFB1EC2786000A64589 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD849FFA1EC2786000A64589 /* ViewController.swift */; };
+		FD849FFE1EC2786000A64589 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD849FFC1EC2786000A64589 /* Main.storyboard */; };
+		FD84A0001EC2786000A64589 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD849FFF1EC2786000A64589 /* Assets.xcassets */; };
+		FD84A0031EC2786000A64589 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD84A0011EC2786000A64589 /* LaunchScreen.storyboard */; };
+		FD84A00E1EC2786100A64589 /* EazyUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD84A00D1EC2786100A64589 /* EazyUTests.swift */; };
+		FD84A0191EC2786100A64589 /* EazyUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD84A0181EC2786100A64589 /* EazyUUITests.swift */; };
+		FD84A0271EC278C000A64589 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD84A0261EC278C000A64589 /* GoogleService-Info.plist */; };
+		FD84A0281EC278C000A64589 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD84A0261EC278C000A64589 /* GoogleService-Info.plist */; };
+		FD84A0291EC278C000A64589 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD84A0261EC278C000A64589 /* GoogleService-Info.plist */; };
+		FD84A02B1EC284A700A64589 /* MainViewContrller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD84A02A1EC284A700A64589 /* MainViewContrller.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD84A00A1EC2786100A64589 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD849FED1EC2786000A64589 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD849FF41EC2786000A64589;
+			remoteInfo = EazyU;
+		};
+		FD84A0151EC2786100A64589 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD849FED1EC2786000A64589 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD849FF41EC2786000A64589;
+			remoteInfo = EazyU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09DDF3BF02C1AB129364957A /* Pods-EazyUUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EazyUUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EazyUUITests/Pods-EazyUUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		24BAFEE40C5BC64AE5B2C42D /* Pods-EazyU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EazyU.release.xcconfig"; path = "Pods/Target Support Files/Pods-EazyU/Pods-EazyU.release.xcconfig"; sourceTree = "<group>"; };
+		59CC67B07BD194F394F39551 /* Pods-EazyUTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EazyUTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EazyUTests/Pods-EazyUTests.release.xcconfig"; sourceTree = "<group>"; };
+		5FBF41AF2A20CB60BDAD1AB8 /* Pods_EazyUUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EazyUUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		937ADF9DFDF55812CC7F6812 /* Pods_EazyUTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EazyUTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A995E067BD785139691E31 /* Pods-EazyUUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EazyUUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EazyUUITests/Pods-EazyUUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CFFD3566AA82585C99E1D2EE /* Pods-EazyUTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EazyUTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EazyUTests/Pods-EazyUTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D78304D39E9F7D1D2F706A78 /* Pods_EazyU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EazyU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC134747B076631E6E7DFF78 /* Pods-EazyU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EazyU.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EazyU/Pods-EazyU.debug.xcconfig"; sourceTree = "<group>"; };
+		FD849FF51EC2786000A64589 /* EazyU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EazyU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD849FF81EC2786000A64589 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD849FFA1EC2786000A64589 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD849FFD1EC2786000A64589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD849FFF1EC2786000A64589 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD84A0021EC2786000A64589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD84A0041EC2786000A64589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD84A0091EC2786100A64589 /* EazyUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EazyUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD84A00D1EC2786100A64589 /* EazyUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EazyUTests.swift; sourceTree = "<group>"; };
+		FD84A00F1EC2786100A64589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD84A0141EC2786100A64589 /* EazyUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EazyUUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD84A0181EC2786100A64589 /* EazyUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EazyUUITests.swift; sourceTree = "<group>"; };
+		FD84A01A1EC2786100A64589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD84A0261EC278C000A64589 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FD84A02A1EC284A700A64589 /* MainViewContrller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewContrller.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD849FF21EC2786000A64589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709697D11BA0794464B81B37 /* Pods_EazyU.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD84A0061EC2786100A64589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90338D097A06CE6D42621A5 /* Pods_EazyUTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD84A0111EC2786100A64589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				731EEB1BD6F804F184A3960B /* Pods_EazyUUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0419BBC97F57AFA7758AC3E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D78304D39E9F7D1D2F706A78 /* Pods_EazyU.framework */,
+				937ADF9DFDF55812CC7F6812 /* Pods_EazyUTests.framework */,
+				5FBF41AF2A20CB60BDAD1AB8 /* Pods_EazyUUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7868D447A17638474B9EE23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC134747B076631E6E7DFF78 /* Pods-EazyU.debug.xcconfig */,
+				24BAFEE40C5BC64AE5B2C42D /* Pods-EazyU.release.xcconfig */,
+				CFFD3566AA82585C99E1D2EE /* Pods-EazyUTests.debug.xcconfig */,
+				59CC67B07BD194F394F39551 /* Pods-EazyUTests.release.xcconfig */,
+				09DDF3BF02C1AB129364957A /* Pods-EazyUUITests.debug.xcconfig */,
+				C0A995E067BD785139691E31 /* Pods-EazyUUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD849FEC1EC2786000A64589 = {
+			isa = PBXGroup;
+			children = (
+				FD849FF71EC2786000A64589 /* EazyU */,
+				FD84A00C1EC2786100A64589 /* EazyUTests */,
+				FD84A0171EC2786100A64589 /* EazyUUITests */,
+				FD849FF61EC2786000A64589 /* Products */,
+				C7868D447A17638474B9EE23 /* Pods */,
+				0419BBC97F57AFA7758AC3E9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FD849FF61EC2786000A64589 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD849FF51EC2786000A64589 /* EazyU.app */,
+				FD84A0091EC2786100A64589 /* EazyUTests.xctest */,
+				FD84A0141EC2786100A64589 /* EazyUUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD849FF71EC2786000A64589 /* EazyU */ = {
+			isa = PBXGroup;
+			children = (
+				FD849FF81EC2786000A64589 /* AppDelegate.swift */,
+				FD84A0261EC278C000A64589 /* GoogleService-Info.plist */,
+				FD849FFA1EC2786000A64589 /* ViewController.swift */,
+				FD849FFC1EC2786000A64589 /* Main.storyboard */,
+				FD849FFF1EC2786000A64589 /* Assets.xcassets */,
+				FD84A0011EC2786000A64589 /* LaunchScreen.storyboard */,
+				FD84A0041EC2786000A64589 /* Info.plist */,
+				FD84A02A1EC284A700A64589 /* MainViewContrller.swift */,
+			);
+			path = EazyU;
+			sourceTree = "<group>";
+		};
+		FD84A00C1EC2786100A64589 /* EazyUTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD84A00D1EC2786100A64589 /* EazyUTests.swift */,
+				FD84A00F1EC2786100A64589 /* Info.plist */,
+			);
+			path = EazyUTests;
+			sourceTree = "<group>";
+		};
+		FD84A0171EC2786100A64589 /* EazyUUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD84A0181EC2786100A64589 /* EazyUUITests.swift */,
+				FD84A01A1EC2786100A64589 /* Info.plist */,
+			);
+			path = EazyUUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD849FF41EC2786000A64589 /* EazyU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD84A01D1EC2786100A64589 /* Build configuration list for PBXNativeTarget "EazyU" */;
+			buildPhases = (
+				3A599F23446DBBE7AC9A0968 /* [CP] Check Pods Manifest.lock */,
+				FD849FF11EC2786000A64589 /* Sources */,
+				FD849FF21EC2786000A64589 /* Frameworks */,
+				FD849FF31EC2786000A64589 /* Resources */,
+				E3BB206A19A8924558F56EBF /* [CP] Embed Pods Frameworks */,
+				EE2E0FF7DB97E7A61F60F2EA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EazyU;
+			productName = EazyU;
+			productReference = FD849FF51EC2786000A64589 /* EazyU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD84A0081EC2786100A64589 /* EazyUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD84A0201EC2786100A64589 /* Build configuration list for PBXNativeTarget "EazyUTests" */;
+			buildPhases = (
+				C0994D0F5D35D5927DB12388 /* [CP] Check Pods Manifest.lock */,
+				FD84A0051EC2786100A64589 /* Sources */,
+				FD84A0061EC2786100A64589 /* Frameworks */,
+				FD84A0071EC2786100A64589 /* Resources */,
+				B2E1A2EE6E1D876462DCEBB8 /* [CP] Embed Pods Frameworks */,
+				D47CA857F59D21DE09CFC95A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD84A00B1EC2786100A64589 /* PBXTargetDependency */,
+			);
+			name = EazyUTests;
+			productName = EazyUTests;
+			productReference = FD84A0091EC2786100A64589 /* EazyUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD84A0131EC2786100A64589 /* EazyUUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD84A0231EC2786100A64589 /* Build configuration list for PBXNativeTarget "EazyUUITests" */;
+			buildPhases = (
+				F3058F27F5E0B004E6CE35C8 /* [CP] Check Pods Manifest.lock */,
+				FD84A0101EC2786100A64589 /* Sources */,
+				FD84A0111EC2786100A64589 /* Frameworks */,
+				FD84A0121EC2786100A64589 /* Resources */,
+				2E3331DEC59C8AD757737227 /* [CP] Embed Pods Frameworks */,
+				C7168BB48C6D38080E1DC176 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD84A0161EC2786100A64589 /* PBXTargetDependency */,
+			);
+			name = EazyUUITests;
+			productName = EazyUUITests;
+			productReference = FD84A0141EC2786100A64589 /* EazyUUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD849FED1EC2786000A64589 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "ZJ Jiang";
+				TargetAttributes = {
+					FD849FF41EC2786000A64589 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					FD84A0081EC2786100A64589 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FD849FF41EC2786000A64589;
+					};
+					FD84A0131EC2786100A64589 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FD849FF41EC2786000A64589;
+					};
+				};
+			};
+			buildConfigurationList = FD849FF01EC2786000A64589 /* Build configuration list for PBXProject "EazyU" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD849FEC1EC2786000A64589;
+			productRefGroup = FD849FF61EC2786000A64589 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD849FF41EC2786000A64589 /* EazyU */,
+				FD84A0081EC2786100A64589 /* EazyUTests */,
+				FD84A0131EC2786100A64589 /* EazyUUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD849FF31EC2786000A64589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD84A0031EC2786000A64589 /* LaunchScreen.storyboard in Resources */,
+				FD84A0271EC278C000A64589 /* GoogleService-Info.plist in Resources */,
+				FD84A0001EC2786000A64589 /* Assets.xcassets in Resources */,
+				FD849FFE1EC2786000A64589 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD84A0071EC2786100A64589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD84A0281EC278C000A64589 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD84A0121EC2786100A64589 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD84A0291EC278C000A64589 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E3331DEC59C8AD757737227 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EazyUUITests/Pods-EazyUUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A599F23446DBBE7AC9A0968 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B2E1A2EE6E1D876462DCEBB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EazyUTests/Pods-EazyUTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0994D0F5D35D5927DB12388 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7168BB48C6D38080E1DC176 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EazyUUITests/Pods-EazyUUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D47CA857F59D21DE09CFC95A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EazyUTests/Pods-EazyUTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3BB206A19A8924558F56EBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EazyU/Pods-EazyU-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE2E0FF7DB97E7A61F60F2EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EazyU/Pods-EazyU-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3058F27F5E0B004E6CE35C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD849FF11EC2786000A64589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD849FFB1EC2786000A64589 /* ViewController.swift in Sources */,
+				FD84A02B1EC284A700A64589 /* MainViewContrller.swift in Sources */,
+				FD849FF91EC2786000A64589 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD84A0051EC2786100A64589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD84A00E1EC2786100A64589 /* EazyUTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD84A0101EC2786100A64589 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD84A0191EC2786100A64589 /* EazyUUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD84A00B1EC2786100A64589 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD849FF41EC2786000A64589 /* EazyU */;
+			targetProxy = FD84A00A1EC2786100A64589 /* PBXContainerItemProxy */;
+		};
+		FD84A0161EC2786100A64589 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD849FF41EC2786000A64589 /* EazyU */;
+			targetProxy = FD84A0151EC2786100A64589 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD849FFC1EC2786000A64589 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD849FFD1EC2786000A64589 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD84A0011EC2786000A64589 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD84A0021EC2786000A64589 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD84A01B1EC2786100A64589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD84A01C1EC2786100A64589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD84A01E1EC2786100A64589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC134747B076631E6E7DFF78 /* Pods-EazyU.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EazyU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZJ-jiang.EazyU";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FD84A01F1EC2786100A64589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24BAFEE40C5BC64AE5B2C42D /* Pods-EazyU.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EazyU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZJ-jiang.EazyU";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FD84A0211EC2786100A64589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFFD3566AA82585C99E1D2EE /* Pods-EazyUTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EazyUTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZJ-jiang.EazyUTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EazyU.app/EazyU";
+			};
+			name = Debug;
+		};
+		FD84A0221EC2786100A64589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59CC67B07BD194F394F39551 /* Pods-EazyUTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EazyUTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZJ-jiang.EazyUTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EazyU.app/EazyU";
+			};
+			name = Release;
+		};
+		FD84A0241EC2786100A64589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09DDF3BF02C1AB129364957A /* Pods-EazyUUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EazyUUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZJ-jiang.EazyUUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EazyU;
+			};
+			name = Debug;
+		};
+		FD84A0251EC2786100A64589 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0A995E067BD785139691E31 /* Pods-EazyUUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = EazyUUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZJ-jiang.EazyUUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EazyU;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD849FF01EC2786000A64589 /* Build configuration list for PBXProject "EazyU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD84A01B1EC2786100A64589 /* Debug */,
+				FD84A01C1EC2786100A64589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD84A01D1EC2786100A64589 /* Build configuration list for PBXNativeTarget "EazyU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD84A01E1EC2786100A64589 /* Debug */,
+				FD84A01F1EC2786100A64589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD84A0201EC2786100A64589 /* Build configuration list for PBXNativeTarget "EazyUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD84A0211EC2786100A64589 /* Debug */,
+				FD84A0221EC2786100A64589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD84A0231EC2786100A64589 /* Build configuration list for PBXNativeTarget "EazyUUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD84A0241EC2786100A64589 /* Debug */,
+				FD84A0251EC2786100A64589 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD849FED1EC2786000A64589 /* Project object */;
+}
